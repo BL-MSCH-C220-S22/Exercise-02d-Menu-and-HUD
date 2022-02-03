@@ -39,6 +39,7 @@ func _resize():
 	VP = get_viewport().size
 
 func reset():
+	get_tree().paused = false
 	score = 0
 	time = 100
 	lives = 5
