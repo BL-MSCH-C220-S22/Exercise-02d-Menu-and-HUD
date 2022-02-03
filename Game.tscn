@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Asteroid/Asteroid.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Enemy/Enemy.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Player/Player_Container.gd" type="Script" id=6]
+
+[node name="Game" type="Node2D"]
+__meta__ = {
+"_editor_description_": "The root of the scene"
+}
+
+[node name="Player_Container" type="Node2D" parent="."]
+script = ExtResource( 6 )
+
+[node name="Asteroid_Container" type="Node2D" parent="."]
+
+[node name="Asteroid" parent="Asteroid_Container" instance=ExtResource( 4 )]
+position = Vector2( 100, 100 )
+
+[node name="Asteroid2" parent="Asteroid_Container" instance=ExtResource( 4 )]
+position = Vector2( 800, 500 )
+
+[node name="Effects" type="Node2D" parent="."]
+
+[node name="Enemy_Container" type="Node2D" parent="."]
+
+[node name="Enemy" parent="Enemy_Container" instance=ExtResource( 5 )]
