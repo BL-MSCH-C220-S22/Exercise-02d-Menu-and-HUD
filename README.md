@@ -2,6 +2,8 @@
 
 Exercise for MSCH-C220
 
+A demonstration of this exercise is available at [https://youtu.be/Ft3rEmABP6w](https://youtu.be/Ft3rEmABP6w)
+
 Fork the repository. When that process has completed, make sure that the top of the repository reads `[your username]/Exercise-02d-Menu-and-HUD`. Edit the LICENSE and replace BL-MSCH-C220-S22 with your full name. Commit your changes.
 
 Press the green "Code" button and select "Open in GitHub Desktop". Allow the browser to open (or install) GitHub Desktop. Once GitHub Desktop has loaded, you should see a window labeled "Clone a Repository" asking you for a Local Path on your computer where the project should be copied. Choose a location; make sure the Local Path ends with "Exercise-02d-Menu-and-HUD" and then press the "Clone" button. GitHub Desktop will now download a copy of the repository to the location you indicated.
